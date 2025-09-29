@@ -34,17 +34,16 @@ Steps performed:
 
 ## 📊 RFM Analysis
 - Generated **RFM table** for each customer.  
-- Applied **K-Means clustering** to group customers into 4 segments.  
+- Applied **K-Means clustering** to group customers into 3 segments.  
 
 ### RFM Segments Identified
 - **Cluster 0 – Medium Value Customers:**  
   Average spending is moderate, consistent purchase frequency. (~3876 customers)  
 - **Cluster 1 – At Risk Customers:**  
   Customers with long inactivity and low engagement. (~1998 customers)  
-- **Cluster 2 – High Value Customers:**  
-  Loyal customers with very high spending and frequent purchases. (very small segment)  
-- **Cluster 3 – Active Customers with High Frequency:**  
-  Recently active customers with high purchase frequency. (~35 customers)  
+- **Cluster 2 – Low Value Customers:**  
+  Loyal customers with low spending and frequent purchases. (very small segment)  
+
 
 ---
 
@@ -56,11 +55,10 @@ Steps performed:
 
 ---
 
-## ✅ Business Insights
-1. **High Value Customers** should be rewarded with loyalty programs or exclusive offers.  
-2. **At Risk Customers** need re-engagement campaigns (e.g., discounts, personalized offers).  
-3. **Medium Value Customers** represent the majority – strategies should aim to **increase frequency** of purchases.  
-4. **Low Value Customers** are negligible in count and revenue impact.  
+## ✅ Business Insights 
+1. **At Risk Customers** need re-engagement campaigns (e.g., discounts, personalized offers).  
+2. **Medium Value Customers** represent the majority – strategies should aim to **increase frequency** of purchases.  
+3. **Low Value Customers** are negligible in count and revenue impact.  
 
 ---
 
